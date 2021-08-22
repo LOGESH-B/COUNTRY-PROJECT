@@ -53,7 +53,7 @@ document.querySelector("#name").addEventListener("input",(event)=>{
     let finalData=inData.filter(country=>
         country.name.toLowerCase().startsWith(event.target.value.toLowerCase()))
         if(finalData.length===0){
-            content.innerHTML=`<div class="alert alert-warning" role="alert">
+            content.innerHTML=`<div class="alert alert-warning my-3" role="alert">
             Country NOT Found
           </div>`
           let ul="https://general.futuregenerali.in/general-insurance/img/404.png";
