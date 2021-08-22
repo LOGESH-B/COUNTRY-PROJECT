@@ -13,7 +13,7 @@ getData("https://restcountries.eu/rest/v2/all").then(resdData=>{
     }
     else
     {
-         disData(inData.slice(0,30));
+         disData(inData.slice(0,20));
     }
 })
 .catch(err=>{
